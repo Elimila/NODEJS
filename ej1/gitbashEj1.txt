@@ -1,0 +1,66 @@
+
+Elida@LAPTOP-APL3C58K MINGW64 ~
+$ mkdir ej1
+
+Elida@LAPTOP-APL3C58K MINGW64 ~
+$ cd ej1
+
+Elida@LAPTOP-APL3C58K MINGW64 ~/ej1
+$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (ej1) Ejercicio-1
+Sorry, name can no longer contain capital letters.
+package name: (ej1) ejercicio-1
+version: (1.0.0)
+description: mi primer proyecto node.js
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: elida rodriguez
+license: (ISC)
+About to write to C:\Users\Elida\ej1\package.json:
+
+{
+  "name": "ejercicio-1",
+  "version": "1.0.0",
+  "description": "mi primer proyecto node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "elida rodriguez",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+
+npm notice
+npm notice New major version of npm available! 10.9.2 -> 11.4.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.4.0
+npm notice To update run: npm install -g npm@11.4.0
+npm notice
+
+Elida@LAPTOP-APL3C58K MINGW64 ~/ej1
+$ code .
+
+Elida@LAPTOP-APL3C58K MINGW64 ~/ej1
+$ npm start
+
+> ejercicio-1@1.0.0 start
+> node index.js
+
+Mi primer script en The Bridge!!!
+
+Elida@LAPTOP-APL3C58K MINGW64 ~/ej1
+$

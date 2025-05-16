@@ -1,0 +1,11 @@
+{
+  "name": "routing-node",
+  "version": "1.0.0",
+  "description": "mi primer servidor web en node",
+  "main": "index.js",
+ "scripts": {
+  "start": "node index.js"
+},
+  "author": "elida rodríguez",
+  "license": "ISC"
+}

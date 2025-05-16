@@ -1,0 +1,48 @@
+
+Elida@LAPTOP-APL3C58K MINGW64 ~
+$ mkdir routing-node
+
+Elida@LAPTOP-APL3C58K MINGW64 ~
+$ cd routing-node
+
+Elida@LAPTOP-APL3C58K MINGW64 ~/routing-node
+$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (routing-node) routing-node
+version: (1.0.0)
+description: npm warn init canceled
+
+
+Elida@LAPTOP-APL3C58K MINGW64 ~/routing-node
+$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (routing-node) routing-node
+version: (1.0.0)
+description: mi primer servidor web en node
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+
+> routing-node@1.0.0 start
+> node index.js
+
+Servidor en http://localhost:8080

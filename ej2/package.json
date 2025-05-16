@@ -1,0 +1,14 @@
+{
+  "name": "ejercicio-2",
+  "version": "1.0.0",
+  "description": "uso de logplease",
+  "main": "index.js",
+ "scripts": {
+  "start": "node index.js"
+},
+  "author": "elida rodriguez",
+  "license": "ISC",
+  "devDependencies": {
+    "logplease": "^1.2.15"
+  }
+}

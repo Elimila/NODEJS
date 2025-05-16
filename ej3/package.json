@@ -1,0 +1,14 @@
+{
+  "name": "ejercicio-3",
+  "version": "1.0.0",
+  "description": "función esPar con logplease",
+  "main": "index.js",
+  "scripts": {
+  "start": "node index.js"
+},
+  "author": "elida rodríguez",
+  "license": "ISC",
+  "devDependencies": {
+    "logplease": "^1.2.15"
+  }
+}

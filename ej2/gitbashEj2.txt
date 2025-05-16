@@ -1,0 +1,72 @@
+
+Elida@LAPTOP-APL3C58K MINGW64 ~
+$ mkdir ej2
+
+Elida@LAPTOP-APL3C58K MINGW64 ~
+$ cd ej2
+
+Elida@LAPTOP-APL3C58K MINGW64 ~/ej2
+$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (ej2) ejercicio-2
+version: (1.0.0)
+description: uso de logplease
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: elida rodriguez
+license: (ISC)
+About to write to C:\Users\Elida\ej2\package.json:
+
+{
+  "name": "ejercicio-2",
+  "version": "1.0.0",
+  "description": "uso de logplease",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "elida rodriguez",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+
+
+Elida@LAPTOP-APL3C58K MINGW64 ~/ej2
+$ npm install logplease --save-dev
+
+added 1 package, and audited 2 packages in 749ms
+
+found 0 vulnerabilities
+
+Elida@LAPTOP-APL3C58K MINGW64 ~/ej2
+$ cd .
+
+Elida@LAPTOP-APL3C58K MINGW64 ~/ej2
+$ cd .
+
+Elida@LAPTOP-APL3C58K MINGW64 ~/ej2
+$ npm start
+
+> ejercicio-2@1.0.0 start
+> node index.js
+
+2025-05-16T13:41:17.529Z [DEBUG] ElidaLogger: Hola Mundo de Node
+2025-05-16T13:41:17.534Z [INFO]  ElidaLogger: Noticias de última hora, Node.js me encanta!!
+2025-05-16T13:41:17.534Z [WARN]  ElidaLogger: Tirando warnings como campeones
+2025-05-16T13:41:17.534Z [ERROR] ElidaLogger: Algo no está bien!!!
+
+Elida@LAPTOP-APL3C58K MINGW64 ~/ej2
+$

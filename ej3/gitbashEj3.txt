@@ -1,0 +1,84 @@
+Elida@LAPTOP-APL3C58K MINGW64 ~
+$ mkdir ej3
+
+Elida@LAPTOP-APL3C58K MINGW64 ~
+$ cd ej3
+
+Elida@LAPTOP-APL3C58K MINGW64 ~/ej3
+$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (ej3) ejercicio-3
+version: (1.0.0)
+description: función esPar con logplease
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: elida rodríguez
+license: (ISC)
+About to write to C:\Users\Elida\ej3\package.json:
+
+{
+  "name": "ejercicio-3",
+  "version": "1.0.0",
+  "description": "función esPar con logplease",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "elida rodríguez",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+
+
+Elida@LAPTOP-APL3C58K MINGW64 ~/ej3
+$ npm install loplease --save-dev
+npm error code E404
+npm error 404 Not Found - GET https://registry.npmjs.org/loplease - Not found
+npm error 404
+npm error 404  'loplease@*' is not in this registry.
+npm error 404
+npm error 404 Note that you can also install from a
+npm error 404 tarball, folder, http url, or git url.
+npm error A complete log of this run can be found in: C:\Users\Elida\AppData\Local\npm-cache\_logs\2025-05-16T13_47_50_126Z-debug-0.log
+
+Elida@LAPTOP-APL3C58K MINGW64 ~/ej3
+$ ^C
+
+Elida@LAPTOP-APL3C58K MINGW64 ~/ej3
+$ npm install logplease --save-dev
+
+added 1 package, and audited 2 packages in 1s
+
+found 0 vulnerabilities
+
+Elida@LAPTOP-APL3C58K MINGW64 ~/ej3
+$ code .
+
+Elida@LAPTOP-APL3C58K MINGW64 ~/ej3
+$ npm start
+
+> ejercicio-3@1.0.0 start
+> node index.js
+
+2025-05-16T13:51:41.195Z [INFO]  ElidaLogger: El número 2 es par
+2025-05-16T13:51:41.201Z [ERROR] ElidaLogger: El número 3 no es par
+2025-05-16T13:51:41.201Z [ERROR] ElidaLogger: El número 101 no es par
+2025-05-16T13:51:41.201Z [ERROR] ElidaLogger: El número 201 no es par
+2025-05-16T13:51:41.202Z [INFO]  ElidaLogger: El número 202 es par
+2025-05-16T13:51:41.202Z [INFO]  ElidaLogger: El número 100 es par
+
+Elida@LAPTOP-APL3C58K MINGW64 ~/ej3
+$
